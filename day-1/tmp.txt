@@ -1,0 +1,5 @@
+Line 1 had match for regex 0 at position 0
+Line 1 had match for regex 2 at position 0
+Line 1 had match for regex 4 at position 0
+Line 1 has two nums back to back 0:0
+Taking match 0 and 0 for line 1
