@@ -1,2284 +1,863 @@
 File is 19740 bytes long.
 140 total lines
-Read number 12
-Symbol is below this number
-Read number 935
-Symbol is below this number
-Read number 184
-Symbol is below this number
-Read number 720
-Symbol is below this number
-Read number 243
-Symbol is below this number
-Read number 589
-Symbol is below this number
-Read number 652
-Read number 435
-Symbol is below this number
-Read number 483
-Read number 6
-Symbol is below this number
-Read number 904
-Symbol is below this number
-Read number 968
-Symbol is adjacent to this number
-Read number 348
-Read number 986
-Symbol is below this number
-Read number 459
-Symbol is below this number
-Read number 422
-Symbol is below this number
-Read number 482
-Symbol is adjacent to this number
-Read number 291
-Symbol is above this number
-Read number 612
-Symbol is above this number
-Read number 290
-Symbol is below this number
-Read number 903
-Symbol is below this number
-Read number 699
-Symbol is above this number
-Read number 218
-Symbol is adjacent to this number
-Read number 376
-Symbol is above this number
-Read number 890
-Symbol is below this number
-Read number 838
-Symbol is above this number
-Read number 81
-Symbol is below this number
-Read number 138
-Symbol is below this number
-Read number 194
-Symbol is adjacent to this number
-Read number 156
-Symbol is below this number
-Read number 891
-Symbol is below this number
-Read number 731
-Symbol is adjacent to this number
-Read number 89
-Symbol is below this number
-Read number 523
-Symbol is below this number
-Read number 699
-Symbol is below this number
-Read number 227
-Symbol is above this number
-Read number 225
-Symbol is above this number
-Read number 388
-Symbol is below this number
-Read number 189
-Symbol is above this number
-Read number 591
-Symbol is above this number
-Read number 783
-Symbol is below this number
-Read number 107
-Symbol is below this number
-Read number 54
-Read number 287
-Read number 533
-Symbol is above this number
-Read number 909
-Symbol is below this number
-Read number 603
-Symbol is above this number
-Read number 424
-Symbol is above this number
-Read number 229
-Symbol is adjacent to this number
-Read number 952
-Symbol is adjacent to this number
-Read number 938
-Symbol is above this number
-Read number 470
-Symbol is above this number
-Read number 555
-Symbol is below this number
-Read number 746
-Symbol is above this number
-Read number 28
-Symbol is below this number
-Read number 279
-Symbol is above this number
-Read number 826
-Symbol is below this number
-Read number 788
-Symbol is adjacent to this number
-Read number 867
-Symbol is above this number
-Read number 102
-Symbol is below this number
-Read number 845
-Read number 542
-Symbol is below this number
-Read number 779
-Symbol is below this number
-Read number 182
-Symbol is below this number
-Read number 166
-Symbol is below this number
-Read number 511
-Symbol is below this number
-Read number 563
-Read number 727
-Symbol is below this number
-Read number 282
-Symbol is below this number
-Read number 237
-Symbol is below this number
-Read number 171
-Symbol is below this number
-Read number 892
-Symbol is above this number
-Read number 183
-Read number 989
-Symbol is above this number
-Read number 709
-Symbol is above this number
-Read number 8
-Symbol is adjacent to this number
-Read number 974
-Symbol is adjacent to this number
-Read number 873
-Symbol is below this number
-Read number 129
-Symbol is adjacent to this number
-Read number 491
-Symbol is above this number
-Read number 877
-Symbol is below this number
-Read number 715
-Symbol is above this number
-Read number 270
-Symbol is above this number
-Read number 53
-Symbol is above this number
-Read number 781
-Symbol is above this number
-Read number 295
-Symbol is adjacent to this number
-Read number 773
-Symbol is adjacent to this number
-Read number 336
-Symbol is below this number
-Read number 547
-Symbol is above this number
-Read number 45
-Read number 800
-Symbol is adjacent to this number
-Read number 359
-Symbol is adjacent to this number
-Read number 342
-Symbol is adjacent to this number
-Read number 468
-Symbol is adjacent to this number
-Read number 573
-Symbol is below this number
-Read number 850
-Symbol is adjacent to this number
-Read number 465
-Symbol is above this number
-Read number 192
-Symbol is above this number
-Read number 115
-Symbol is adjacent to this number
-Read number 988
-Symbol is above this number
-Read number 731
-Symbol is below this number
-Read number 789
-Symbol is above this number
-Read number 673
-Symbol is below this number
-Read number 256
-Symbol is adjacent to this number
-Read number 677
-Symbol is below this number
-Read number 621
-Symbol is above this number
-Read number 716
-Symbol is below this number
-Read number 910
-Symbol is above this number
-Read number 297
-Symbol is below this number
-Read number 22
-Read number 204
-Symbol is adjacent to this number
-Read number 69
-Symbol is below this number
-Read number 905
-Symbol is above this number
-Read number 641
-Symbol is below this number
-Read number 472
-Symbol is below this number
-Read number 524
-Symbol is above this number
-Read number 127
-Symbol is below this number
-Read number 714
-Symbol is below this number
-Read number 62
-Symbol is adjacent to this number
-Read number 622
-Read number 324
-Symbol is above this number
-Read number 812
-Symbol is below this number
-Read number 955
-Symbol is above this number
-Read number 257
-Symbol is above this number
-Read number 545
-Symbol is above this number
-Read number 668
-Symbol is above this number
-Read number 91
-Symbol is below this number
-Read number 840
-Symbol is below this number
-Read number 566
-Symbol is below this number
-Read number 66
-Symbol is above this number
-Read number 660
-Symbol is above this number
-Read number 469
-Symbol is above this number
-Read number 525
-Symbol is above this number
-Read number 765
-Read number 25
-Symbol is below this number
-Read number 666
-Symbol is above this number
-Read number 979
-Symbol is below this number
-Read number 952
-Symbol is above this number
-Read number 122
-Symbol is below this number
-Read number 71
-Symbol is below this number
-Read number 39
-Symbol is adjacent to this number
-Read number 94
-Symbol is adjacent to this number
-Read number 132
-Symbol is below this number
-Read number 460
-Symbol is above this number
-Read number 146
-Symbol is below this number
-Read number 625
-Symbol is below this number
-Read number 214
-Symbol is below this number
-Read number 278
-Symbol is below this number
-Read number 667
-Symbol is below this number
-Read number 386
-Symbol is below this number
-Read number 936
-Symbol is above this number
-Read number 643
-Symbol is above this number
-Read number 974
-Symbol is above this number
-Read number 464
-Symbol is above this number
-Read number 995
-Symbol is adjacent to this number
-Read number 577
-Symbol is above this number
-Read number 3
-Symbol is below this number
-Read number 186
-Symbol is adjacent to this number
-Read number 995
-Symbol is above this number
-Read number 678
-Symbol is above this number
-Read number 882
-Symbol is above this number
-Read number 559
-Symbol is below this number
-Read number 374
-Symbol is above this number
-Read number 554
-Symbol is above this number
-Read number 428
-Symbol is above this number
-Read number 725
-Symbol is below this number
-Read number 96
-Symbol is above this number
-Read number 678
-Symbol is above this number
-Read number 529
-Symbol is above this number
-Read number 374
-Symbol is above this number
-Read number 924
-Symbol is below this number
-Read number 277
-Symbol is adjacent to this number
-Read number 606
-Symbol is above this number
-Read number 8
-Symbol is above this number
-Read number 257
-Symbol is above this number
-Read number 609
-Read number 397
-Symbol is below this number
-Read number 475
-Read number 651
-Symbol is below this number
-Read number 856
-Read number 697
-Symbol is above this number
-Read number 486
-Symbol is below this number
-Read number 888
-Symbol is above this number
-Read number 756
-Symbol is below this number
-Read number 399
-Symbol is below this number
-Read number 42
-Symbol is below this number
-Read number 866
-Symbol is above this number
-Read number 287
-Symbol is above this number
-Read number 515
-Symbol is below this number
-Read number 137
-Read number 285
-Read number 947
-Symbol is above this number
-Read number 997
-Symbol is above this number
-Read number 665
-Symbol is below this number
-Read number 420
-Symbol is above this number
-Read number 268
-Symbol is adjacent to this number
-Read number 457
-Symbol is adjacent to this number
-Read number 63
-Symbol is adjacent to this number
-Read number 758
-Symbol is above this number
-Read number 623
-Symbol is above this number
-Read number 458
-Symbol is above this number
-Read number 422
-Symbol is below this number
-Read number 338
-Read number 827
-Symbol is above this number
-Read number 462
-Symbol is above this number
-Read number 797
-Symbol is above this number
-Read number 26
-Symbol is above this number
-Read number 523
-Symbol is above this number
-Read number 880
-Symbol is adjacent to this number
-Read number 934
-Symbol is above this number
-Read number 157
-Symbol is above this number
-Read number 149
-Symbol is below this number
-Read number 409
-Symbol is below this number
-Read number 868
-Symbol is below this number
-Read number 378
-Symbol is above this number
-Read number 144
-Symbol is above this number
-Read number 149
-Symbol is below this number
-Read number 356
-Symbol is below this number
-Read number 872
-Symbol is above this number
-Read number 871
-Symbol is below this number
-Read number 533
-Symbol is below this number
-Read number 22
-Read number 7
-Symbol is below this number
-Read number 149
-Symbol is below this number
-Read number 979
-Read number 826
-Read number 275
-Symbol is adjacent to this number
-Read number 518
-Symbol is above this number
-Read number 773
-Symbol is adjacent to this number
-Read number 10
-Symbol is below this number
-Read number 805
-Symbol is below this number
-Read number 812
-Symbol is below this number
-Read number 972
-Symbol is below this number
-Read number 123
-Symbol is below this number
-Read number 98
-Symbol is above this number
-Read number 609
-Symbol is adjacent to this number
-Read number 682
-Read number 5
-Read number 349
-Symbol is above this number
-Read number 786
-Symbol is below this number
-Read number 160
-Symbol is above this number
-Read number 903
-Read number 40
-Symbol is below this number
-Read number 209
-Symbol is above this number
-Read number 497
-Read number 153
-Symbol is above this number
-Read number 795
-Symbol is below this number
-Read number 806
-Symbol is adjacent to this number
-Read number 839
-Symbol is below this number
-Read number 419
-Symbol is above this number
-Read number 337
-Symbol is above this number
-Read number 78
-Read number 582
-Symbol is above this number
-Read number 675
-Symbol is below this number
-Read number 145
-Symbol is below this number
-Read number 405
-Symbol is below this number
-Read number 77
-Symbol is above this number
-Read number 361
-Symbol is below this number
-Read number 952
-Symbol is below this number
-Read number 741
-Symbol is adjacent to this number
-Read number 624
-Read number 527
-Symbol is adjacent to this number
-Read number 51
-Symbol is adjacent to this number
-Read number 733
-Symbol is adjacent to this number
-Read number 728
-Symbol is above this number
-Read number 173
-Read number 834
-Read number 76
-Symbol is below this number
-Read number 878
-Symbol is below this number
-Read number 276
-Symbol is above this number
-Read number 792
-Symbol is above this number
-Read number 372
-Symbol is above this number
-Read number 385
-Symbol is above this number
-Read number 179
-Symbol is below this number
-Read number 610
-Symbol is adjacent to this number
-Read number 146
-Symbol is adjacent to this number
-Read number 522
-Symbol is below this number
-Read number 30
-Read number 110
-Symbol is adjacent to this number
-Read number 197
-Symbol is below this number
-Read number 643
-Symbol is below this number
-Read number 762
-Symbol is below this number
-Read number 173
-Symbol is above this number
-Read number 420
-Symbol is below this number
-Read number 407
-Symbol is below this number
-Read number 261
-Symbol is above this number
-Read number 687
-Symbol is above this number
-Read number 806
-Symbol is below this number
-Read number 12
-Symbol is above this number
-Read number 104
-Symbol is above this number
-Read number 914
-Read number 685
-Symbol is above this number
-Read number 233
-Symbol is below this number
-Read number 549
-Symbol is below this number
-Read number 591
-Symbol is above this number
-Read number 837
-Symbol is above this number
-Read number 135
-Symbol is above this number
-Read number 313
-Symbol is below this number
-Read number 579
-Symbol is below this number
-Read number 613
-Symbol is below this number
-Read number 729
-Symbol is below this number
-Read number 257
-Symbol is adjacent to this number
-Read number 430
-Symbol is above this number
-Read number 399
-Symbol is adjacent to this number
-Read number 157
-Symbol is above this number
-Read number 970
-Symbol is above this number
-Read number 566
-Symbol is below this number
-Read number 906
-Symbol is adjacent to this number
-Read number 459
-Symbol is below this number
-Read number 78
-Symbol is adjacent to this number
-Read number 775
-Read number 768
-Symbol is above this number
-Read number 62
-Symbol is below this number
-Read number 345
-Symbol is above this number
-Read number 537
-Symbol is above this number
-Read number 122
-Symbol is above this number
-Read number 803
-Symbol is above this number
-Read number 142
-Symbol is adjacent to this number
-Read number 758
-Symbol is adjacent to this number
-Read number 148
-Symbol is above this number
-Read number 992
-Read number 711
-Symbol is below this number
-Read number 316
-Symbol is above this number
-Read number 521
-Symbol is above this number
-Read number 298
-Symbol is adjacent to this number
-Read number 590
-Symbol is adjacent to this number
-Read number 289
-Symbol is below this number
-Read number 444
-Symbol is above this number
-Read number 382
-Symbol is below this number
-Read number 753
-Symbol is above this number
-Read number 927
-Symbol is below this number
-Read number 592
-Symbol is above this number
-Read number 735
-Symbol is below this number
-Read number 634
-Read number 652
-Read number 853
-Symbol is below this number
-Read number 690
-Symbol is below this number
-Read number 874
-Symbol is above this number
-Read number 846
-Symbol is above this number
-Read number 35
-Read number 884
-Symbol is below this number
-Read number 182
-Symbol is below this number
-Read number 419
-Read number 839
-Symbol is below this number
-Read number 157
-Symbol is above this number
-Read number 795
-Symbol is below this number
-Read number 928
-Read number 756
-Symbol is below this number
-Read number 64
-Symbol is adjacent to this number
-Read number 19
-Symbol is adjacent to this number
-Read number 309
-Symbol is below this number
-Read number 716
-Symbol is above this number
-Read number 591
-Symbol is below this number
-Read number 358
-Symbol is adjacent to this number
-Read number 378
-Symbol is adjacent to this number
-Read number 623
-Symbol is above this number
-Read number 687
-Symbol is below this number
-Read number 816
-Symbol is adjacent to this number
-Read number 292
-Symbol is above this number
-Read number 110
-Symbol is above this number
-Read number 643
-Read number 134
-Symbol is below this number
-Read number 910
-Symbol is above this number
-Read number 941
-Symbol is above this number
-Read number 547
-Symbol is adjacent to this number
-Read number 490
-Symbol is above this number
-Read number 938
-Symbol is adjacent to this number
-Read number 422
-Symbol is above this number
-Read number 482
-Symbol is above this number
-Read number 331
-Symbol is below this number
-Read number 80
-Symbol is above this number
-Read number 346
-Symbol is adjacent to this number
-Read number 180
-Symbol is below this number
-Read number 737
-Symbol is below this number
-Read number 76
-Symbol is above this number
-Read number 992
-Symbol is adjacent to this number
-Read number 91
-Symbol is below this number
-Read number 16
-Symbol is above this number
-Read number 140
-Symbol is above this number
-Read number 464
-Symbol is adjacent to this number
-Read number 831
-Symbol is adjacent to this number
-Read number 933
-Symbol is below this number
-Read number 917
-Symbol is below this number
-Read number 303
-Symbol is below this number
-Read number 336
-Symbol is below this number
-Read number 339
-Symbol is below this number
-Read number 939
-Symbol is below this number
-Read number 583
-Symbol is above this number
-Read number 564
-Symbol is adjacent to this number
-Read number 864
-Read number 54
-Symbol is adjacent to this number
-Read number 449
-Symbol is above this number
-Read number 209
-Symbol is above this number
-Read number 912
-Symbol is above this number
-Read number 615
-Read number 605
-Symbol is above this number
-Read number 960
-Symbol is above this number
-Read number 219
-Symbol is above this number
-Read number 442
-Symbol is adjacent to this number
-Read number 730
-Symbol is below this number
-Read number 413
-Symbol is below this number
-Read number 26
-Symbol is below this number
-Read number 944
-Symbol is above this number
-Read number 336
-Symbol is below this number
-Read number 188
-Symbol is below this number
-Read number 190
-Symbol is below this number
-Read number 524
-Symbol is below this number
-Read number 544
-Symbol is below this number
-Read number 968
-Symbol is adjacent to this number
-Read number 466
-Symbol is below this number
-Read number 222
-Symbol is below this number
-Read number 536
-Symbol is below this number
-Read number 843
-Read number 32
-Symbol is below this number
-Read number 410
-Symbol is above this number
-Read number 80
-Symbol is adjacent to this number
-Read number 491
-Symbol is below this number
-Read number 232
-Symbol is above this number
-Read number 16
-Symbol is above this number
-Read number 402
-Symbol is above this number
-Read number 27
-Symbol is below this number
-Read number 480
-Symbol is above this number
-Read number 894
-Symbol is below this number
-Read number 218
-Symbol is above this number
-Read number 819
-Symbol is above this number
-Read number 857
-Symbol is above this number
-Read number 896
-Symbol is above this number
-Read number 677
-Symbol is below this number
-Read number 689
-Symbol is above this number
-Read number 638
-Symbol is above this number
-Read number 45
-Symbol is adjacent to this number
-Read number 993
-Symbol is below this number
-Read number 754
-Symbol is above this number
-Read number 434
-Symbol is above this number
-Read number 622
-Symbol is below this number
-Read number 338
-Symbol is below this number
-Read number 607
-Symbol is above this number
-Read number 213
-Symbol is adjacent to this number
-Read number 894
-Symbol is below this number
-Read number 681
-Read number 484
-Read number 963
-Symbol is below this number
-Read number 498
-Read number 538
-Symbol is above this number
-Read number 346
-Read number 802
-Symbol is above this number
-Read number 162
-Symbol is adjacent to this number
-Read number 752
-Read number 520
-Symbol is above this number
-Read number 229
-Symbol is below this number
-Read number 2
-Read number 586
-Read number 513
-Read number 25
-Symbol is adjacent to this number
-Read number 746
-Read number 782
-Symbol is adjacent to this number
-Read number 423
-Symbol is adjacent to this number
-Read number 307
-Symbol is adjacent to this number
-Read number 497
-Symbol is below this number
-Read number 551
-Symbol is below this number
-Read number 996
-Symbol is below this number
-Read number 696
-Symbol is below this number
-Read number 879
-Symbol is above this number
-Read number 911
-Symbol is below this number
-Read number 277
-Symbol is adjacent to this number
-Read number 157
-Symbol is adjacent to this number
-Read number 137
-Symbol is below this number
-Read number 621
-Symbol is above this number
-Read number 527
-Read number 9
-Symbol is below this number
-Read number 844
-Symbol is above this number
-Read number 224
-Symbol is adjacent to this number
-Read number 304
-Symbol is below this number
-Read number 541
-Symbol is above this number
-Read number 649
-Symbol is above this number
-Read number 412
-Symbol is below this number
-Read number 744
-Symbol is above this number
-Read number 560
-Symbol is above this number
-Read number 404
-Symbol is above this number
-Read number 240
-Symbol is below this number
-Read number 986
-Symbol is adjacent to this number
-Read number 346
-Symbol is above this number
-Read number 268
-Symbol is below this number
-Read number 764
-Symbol is above this number
-Read number 902
-Symbol is below this number
-Read number 856
-Read number 242
-Symbol is above this number
-Read number 842
-Symbol is below this number
-Read number 514
-Read number 38
-Symbol is below this number
-Read number 715
-Symbol is above this number
-Read number 142
-Symbol is above this number
-Read number 587
-Symbol is above this number
-Read number 307
-Symbol is below this number
-Read number 731
-Symbol is below this number
-Read number 954
-Symbol is above this number
-Read number 878
-Symbol is adjacent to this number
-Read number 349
-Symbol is below this number
-Read number 76
-Symbol is above this number
-Read number 92
-Symbol is above this number
-Read number 612
-Symbol is below this number
-Read number 376
-Symbol is below this number
-Read number 257
-Read number 968
-Symbol is above this number
-Read number 765
-Symbol is above this number
-Read number 960
-Symbol is adjacent to this number
-Read number 414
-Symbol is adjacent to this number
-Read number 713
-Symbol is below this number
-Read number 501
-Symbol is above this number
-Read number 941
-Symbol is adjacent to this number
-Read number 415
-Symbol is below this number
-Read number 937
-Symbol is adjacent to this number
-Read number 967
-Symbol is below this number
-Read number 409
-Symbol is below this number
-Read number 605
-Symbol is below this number
-Read number 375
-Symbol is above this number
-Read number 771
-Symbol is above this number
-Read number 599
-Symbol is adjacent to this number
-Read number 884
-Symbol is adjacent to this number
-Read number 880
-Symbol is above this number
-Read number 127
-Symbol is below this number
-Read number 513
-Symbol is adjacent to this number
-Read number 171
-Symbol is above this number
-Read number 507
-Symbol is below this number
-Read number 895
-Symbol is below this number
-Read number 636
-Symbol is below this number
-Read number 768
-Symbol is below this number
-Read number 114
-Symbol is above this number
-Read number 292
-Symbol is above this number
-Read number 223
-Symbol is below this number
-Read number 807
-Symbol is above this number
-Read number 977
-Symbol is below this number
-Read number 218
-Symbol is above this number
-Read number 753
-Symbol is above this number
-Read number 47
-Symbol is above this number
-Read number 507
-Symbol is above this number
-Read number 90
-Symbol is above this number
-Read number 725
-Symbol is adjacent to this number
-Read number 755
-Symbol is above this number
-Read number 478
-Symbol is adjacent to this number
-Read number 542
-Symbol is above this number
-Read number 676
-Symbol is above this number
-Read number 673
-Symbol is above this number
-Read number 974
-Symbol is above this number
-Read number 170
-Symbol is adjacent to this number
-Read number 261
-Symbol is below this number
-Read number 134
-Symbol is above this number
-Read number 800
-Read number 532
-Read number 15
-Read number 445
-Symbol is below this number
-Read number 102
-Read number 510
-Symbol is adjacent to this number
-Read number 625
-Symbol is above this number
-Read number 279
-Symbol is above this number
-Read number 654
-Symbol is below this number
-Read number 850
-Read number 405
-Read number 395
-Symbol is above this number
-Read number 467
-Read number 477
-Symbol is below this number
-Read number 973
-Symbol is below this number
-Read number 191
-Symbol is above this number
-Read number 398
-Symbol is below this number
-Read number 925
-Read number 793
-Symbol is below this number
-Read number 423
-Symbol is adjacent to this number
-Read number 659
-Read number 817
-Symbol is below this number
-Read number 230
-Symbol is above this number
-Read number 653
-Symbol is below this number
-Read number 52
-Symbol is above this number
-Read number 764
-Symbol is adjacent to this number
-Read number 273
-Symbol is below this number
-Read number 430
-Symbol is below this number
-Read number 669
-Read number 71
-Read number 435
-Symbol is below this number
-Read number 804
-Symbol is above this number
-Read number 177
-Symbol is below this number
-Read number 990
-Symbol is below this number
-Read number 838
-Symbol is below this number
-Read number 475
-Symbol is below this number
-Read number 297
-Symbol is below this number
-Read number 337
-Symbol is below this number
-Read number 360
-Symbol is above this number
-Read number 914
-Read number 833
-Symbol is above this number
-Read number 281
-Symbol is above this number
-Read number 328
-Read number 746
-Symbol is above this number
-Read number 215
-Symbol is adjacent to this number
-Read number 359
-Symbol is below this number
-Read number 295
-Symbol is below this number
-Read number 481
-Symbol is adjacent to this number
-Read number 868
-Symbol is below this number
-Read number 967
-Symbol is above this number
-Read number 936
-Symbol is above this number
-Read number 689
-Symbol is adjacent to this number
-Read number 785
-Symbol is above this number
-Read number 515
-Symbol is above this number
-Read number 64
-Symbol is adjacent to this number
-Read number 827
-Symbol is above this number
-Read number 761
-Symbol is below this number
-Read number 637
-Read number 265
-Symbol is adjacent to this number
-Read number 562
-Symbol is above this number
-Read number 235
-Symbol is below this number
-Read number 585
-Symbol is below this number
-Read number 793
-Symbol is above this number
-Read number 838
-Symbol is below this number
-Read number 147
-Symbol is below this number
-Read number 284
-Read number 902
-Symbol is below this number
-Read number 301
-Symbol is adjacent to this number
-Read number 330
-Symbol is adjacent to this number
-Read number 579
-Symbol is above this number
-Read number 21
-Symbol is adjacent to this number
-Read number 327
-Symbol is below this number
-Read number 481
-Symbol is below this number
-Read number 469
-Symbol is adjacent to this number
-Read number 297
-Symbol is above this number
-Read number 704
-Symbol is below this number
-Read number 797
-Symbol is above this number
-Read number 638
-Read number 81
-Symbol is above this number
-Read number 780
-Symbol is above this number
-Read number 282
-Symbol is below this number
-Read number 907
-Symbol is above this number
-Read number 882
-Symbol is below this number
-Read number 781
-Symbol is below this number
-Read number 797
-Symbol is above this number
-Read number 671
-Symbol is below this number
-Read number 608
-Symbol is below this number
-Read number 295
-Symbol is above this number
-Read number 302
-Symbol is above this number
-Read number 953
-Read number 171
-Symbol is above this number
-Read number 919
-Symbol is above this number
-Read number 251
-Symbol is below this number
-Read number 191
-Read number 999
-Symbol is above this number
-Read number 451
-Read number 286
-Symbol is below this number
-Read number 415
-Symbol is above this number
-Read number 581
-Symbol is above this number
-Read number 274
-Symbol is above this number
-Read number 245
-Symbol is adjacent to this number
-Read number 217
-Symbol is above this number
-Read number 649
-Symbol is above this number
-Read number 898
-Symbol is above this number
-Read number 950
-Symbol is above this number
-Read number 495
-Symbol is adjacent to this number
-Read number 497
-Symbol is adjacent to this number
-Read number 53
-Symbol is adjacent to this number
-Read number 398
-Symbol is above this number
-Read number 942
-Symbol is below this number
-Read number 323
-Symbol is below this number
-Read number 623
-Read number 804
-Symbol is above this number
-Read number 875
-Symbol is above this number
-Read number 42
-Symbol is below this number
-Read number 543
-Symbol is below this number
-Read number 320
-Read number 918
-Read number 314
-Symbol is below this number
-Read number 145
-Symbol is above this number
-Read number 603
-Read number 991
-Symbol is adjacent to this number
-Read number 921
-Symbol is below this number
-Read number 261
-Symbol is below this number
-Read number 762
-Symbol is below this number
-Read number 187
-Symbol is above this number
-Read number 951
-Symbol is adjacent to this number
-Read number 638
-Symbol is adjacent to this number
-Read number 53
-Symbol is below this number
-Read number 374
-Symbol is above this number
-Read number 756
-Symbol is above this number
-Read number 217
-Symbol is adjacent to this number
-Read number 550
-Symbol is adjacent to this number
-Read number 217
-Symbol is above this number
-Read number 743
-Symbol is above this number
-Read number 703
-Symbol is above this number
-Read number 368
-Symbol is below this number
-Read number 861
-Symbol is adjacent to this number
-Read number 4
-Symbol is adjacent to this number
-Read number 966
-Symbol is adjacent to this number
-Read number 415
-Symbol is above this number
-Read number 703
-Symbol is below this number
-Read number 959
-Symbol is adjacent to this number
-Read number 344
-Symbol is adjacent to this number
-Read number 626
-Symbol is below this number
-Read number 31
-Symbol is above this number
-Read number 602
-Read number 700
-Read number 696
-Symbol is below this number
-Read number 396
-Symbol is below this number
-Read number 591
-Symbol is below this number
-Read number 124
-Symbol is adjacent to this number
-Read number 135
-Read number 699
-Symbol is below this number
-Read number 139
-Symbol is below this number
-Read number 662
-Symbol is below this number
-Read number 46
-Symbol is above this number
-Read number 797
-Symbol is adjacent to this number
-Read number 144
-Symbol is above this number
-Read number 289
-Symbol is adjacent to this number
-Read number 840
-Symbol is above this number
-Read number 102
-Symbol is below this number
-Read number 44
-Read number 909
-Read number 180
-Symbol is below this number
-Read number 100
-Symbol is below this number
-Read number 574
-Symbol is above this number
-Read number 52
-Read number 451
-Symbol is above this number
-Read number 764
-Symbol is below this number
-Read number 517
-Symbol is above this number
-Read number 701
-Symbol is adjacent to this number
-Read number 127
-Symbol is adjacent to this number
-Read number 117
-Symbol is below this number
-Read number 787
-Symbol is above this number
-Read number 67
-Symbol is above this number
-Read number 903
-Symbol is below this number
-Read number 273
-Read number 900
-Symbol is adjacent to this number
-Read number 112
-Symbol is above this number
-Read number 430
-Symbol is above this number
-Read number 423
-Symbol is below this number
-Read number 67
-Symbol is below this number
-Read number 572
-Symbol is adjacent to this number
-Read number 199
-Symbol is below this number
-Read number 94
-Symbol is above this number
-Read number 686
-Read number 679
-Symbol is below this number
-Read number 921
-Symbol is adjacent to this number
-Read number 542
-Symbol is adjacent to this number
-Read number 119
-Symbol is adjacent to this number
-Read number 396
-Symbol is below this number
-Read number 938
-Symbol is above this number
-Read number 250
-Symbol is above this number
-Read number 888
-Read number 978
-Symbol is below this number
-Read number 25
-Symbol is below this number
-Read number 306
-Symbol is below this number
-Read number 780
-Symbol is above this number
-Read number 251
-Symbol is below this number
-Read number 238
-Symbol is below this number
-Read number 340
-Symbol is above this number
-Read number 112
-Symbol is below this number
-Read number 120
-Symbol is below this number
-Read number 24
-Symbol is below this number
-Read number 223
-Read number 549
-Read number 98
-Symbol is below this number
-Read number 60
-Symbol is above this number
-Read number 775
-Read number 28
-Symbol is adjacent to this number
-Read number 105
-Symbol is adjacent to this number
-Read number 436
-Read number 951
-Symbol is below this number
-Read number 599
-Symbol is below this number
-Read number 309
-Symbol is adjacent to this number
-Read number 682
-Symbol is adjacent to this number
-Read number 937
-Symbol is above this number
-Read number 158
-Symbol is below this number
-Read number 697
-Symbol is above this number
-Read number 764
-Symbol is below this number
-Read number 788
-Symbol is below this number
-Read number 768
-Symbol is below this number
-Read number 266
-Symbol is above this number
-Read number 779
-Symbol is above this number
-Read number 542
-Symbol is above this number
-Read number 148
-Symbol is above this number
-Read number 529
-Symbol is above this number
-Read number 310
-Symbol is below this number
-Read number 412
-Symbol is below this number
-Read number 23
-Symbol is below this number
-Read number 289
-Symbol is below this number
-Read number 560
-Symbol is above this number
-Read number 249
-Symbol is adjacent to this number
-Read number 204
-Symbol is below this number
-Read number 606
-Symbol is adjacent to this number
-Read number 271
-Symbol is above this number
-Read number 805
-Symbol is below this number
-Read number 394
-Symbol is below this number
-Read number 898
-Symbol is above this number
-Read number 919
-Symbol is above this number
-Read number 867
-Symbol is below this number
-Read number 592
-Symbol is below this number
-Read number 166
-Read number 460
-Symbol is above this number
-Read number 369
-Symbol is below this number
-Read number 920
-Read number 233
-Symbol is above this number
-Read number 732
-Symbol is below this number
-Read number 500
-Symbol is above this number
-Read number 950
-Symbol is below this number
-Read number 514
-Read number 110
-Read number 961
-Symbol is above this number
-Read number 309
-Symbol is adjacent to this number
-Read number 450
-Symbol is above this number
-Read number 521
-Symbol is above this number
-Read number 753
-Symbol is above this number
-Read number 965
-Symbol is above this number
-Read number 852
-Symbol is below this number
-Read number 841
-Read number 524
-Symbol is below this number
-Read number 981
-Symbol is above this number
-Read number 653
-Symbol is below this number
-Read number 858
-Symbol is below this number
-Read number 234
-Symbol is below this number
-Read number 922
-Symbol is above this number
-Read number 65
-Read number 991
-Symbol is below this number
-Read number 839
-Symbol is adjacent to this number
-Read number 800
-Symbol is below this number
-Read number 869
-Symbol is above this number
-Read number 836
-Symbol is below this number
-Read number 675
-Symbol is below this number
-Read number 789
-Symbol is below this number
-Read number 505
-Read number 516
-Symbol is above this number
-Read number 774
-Read number 149
-Symbol is below this number
-Read number 737
-Symbol is above this number
-Read number 402
-Symbol is below this number
-Read number 762
-Symbol is above this number
-Read number 780
-Symbol is above this number
-Read number 4
-Symbol is below this number
-Read number 116
-Symbol is above this number
-Read number 976
-Symbol is above this number
-Read number 791
-Symbol is above this number
-Read number 300
-Symbol is above this number
-Read number 338
-Symbol is above this number
-Read number 471
-Read number 480
-Symbol is adjacent to this number
-Read number 160
-Symbol is adjacent to this number
-Read number 3
-Symbol is below this number
-Read number 727
-Symbol is adjacent to this number
-Read number 363
-Symbol is above this number
-Read number 167
-Read number 743
-Read number 721
-Symbol is above this number
-Read number 808
-Symbol is below this number
-Read number 942
-Symbol is below this number
-Read number 339
-Symbol is below this number
-Read number 289
-Symbol is below this number
-Read number 416
-Symbol is below this number
-Read number 955
-Read number 606
-Symbol is adjacent to this number
-Read number 623
-Symbol is adjacent to this number
-Read number 718
-Symbol is above this number
-Read number 503
-Symbol is below this number
-Read number 245
-Symbol is adjacent to this number
-Read number 531
-Read number 686
-Symbol is above this number
-Read number 250
-Symbol is below this number
-Read number 275
-Symbol is above this number
-Read number 110
-Symbol is below this number
-Read number 309
-Symbol is above this number
-Read number 210
-Symbol is below this number
-Read number 386
-Symbol is below this number
-Read number 391
-Read number 444
-Symbol is below this number
-Read number 743
-Symbol is above this number
-Read number 519
-Read number 691
-Symbol is below this number
-Read number 824
-Symbol is adjacent to this number
-Read number 759
-Symbol is above this number
-Read number 617
-Symbol is above this number
-Read number 710
-Symbol is below this number
-Read number 814
-Symbol is below this number
-Read number 356
-Symbol is above this number
-Read number 464
-Symbol is above this number
-Read number 709
-Symbol is above this number
-Read number 746
-Symbol is below this number
-Read number 247
-Symbol is below this number
-Read number 596
-Symbol is above this number
-Read number 999
-Symbol is below this number
-Read number 907
-Symbol is above this number
-Read number 296
-Symbol is above this number
-Read number 760
-Symbol is below this number
-Read number 890
-Symbol is below this number
-Read number 669
-Read number 479
-Symbol is above this number
-Read number 561
-Symbol is below this number
-Read number 178
-Symbol is adjacent to this number
-Read number 977
-Symbol is above this number
-Read number 266
-Read number 640
-Symbol is below this number
-Read number 607
-Symbol is above this number
-Read number 545
-Symbol is below this number
-Read number 395
-Symbol is above this number
-Read number 361
-Symbol is above this number
-Read number 372
-Symbol is adjacent to this number
-Read number 655
-Symbol is above this number
-Read number 398
-Symbol is below this number
-Read number 203
-Symbol is below this number
-Read number 11
-Symbol is below this number
-Read number 147
-Symbol is above this number
-Read number 196
-Symbol is above this number
-Read number 499
-Symbol is above this number
-Read number 561
-Read number 646
-Symbol is above this number
-Read number 898
-Symbol is adjacent to this number
-Read number 175
-Symbol is below this number
-Read number 570
-Symbol is below this number
-Read number 135
-Symbol is below this number
-Read number 633
-Symbol is above this number
-Read number 314
-Symbol is below this number
-Read number 871
-Symbol is above this number
-Read number 898
-Symbol is below this number
-Read number 891
-Symbol is below this number
-Read number 90
-Symbol is above this number
-Read number 780
-Read number 91
-Symbol is adjacent to this number
-Read number 405
-Symbol is below this number
-Read number 627
-Symbol is above this number
-Read number 736
-Symbol is below this number
-Read number 760
-Symbol is above this number
-Read number 722
-Symbol is above this number
-Read number 744
-Symbol is above this number
-Read number 698
-Symbol is below this number
-Read number 367
-Symbol is above this number
-Read number 767
-Symbol is above this number
-Read number 236
-Symbol is above this number
-Read number 692
-Symbol is above this number
-Read number 308
-Symbol is above this number
-Read number 740
-Symbol is above this number
-Read number 906
-Read number 593
-Symbol is adjacent to this number
-Read number 977
-Symbol is above this number
-Read number 645
-Symbol is below this number
-Read number 167
-Symbol is above this number
-Read number 123
-Symbol is above this number
-Read number 281
-Symbol is above this number
-Read number 543
-Symbol is below this number
-Read number 461
-Symbol is above this number
-Read number 175
-Symbol is below this number
-Read number 381
-Symbol is above this number
-Read number 319
-Symbol is above this number
-Read number 282
-Symbol is below this number
-Read number 814
-Symbol is above this number
-Read number 771
-Symbol is adjacent to this number
-Read number 920
-Symbol is below this number
-Read number 473
-Symbol is above this number
-Read number 872
-Symbol is below this number
-Read number 401
-Symbol is adjacent to this number
-Read number 18
-Read number 993
-Read number 256
-Symbol is above this number
-Read number 223
-Read number 242
-Symbol is above this number
-Read number 977
-Read number 293
-Symbol is above this number
-Read number 550
-Symbol is above this number
-Read number 435
-Symbol is above this number
-Read number 23
-Symbol is above this number
-Read number 960
-Symbol is above this number
-Read number 307
-Symbol is above this number
-Read number 504
-Symbol is below this number
-Read number 638
-Symbol is adjacent to this number
-Read number 656
-Symbol is adjacent to this number
-Read number 203
-Symbol is below this number
-Read number 33
-Symbol is below this number
-Read number 430
-Symbol is adjacent to this number
-Read number 731
-Read number 885
-Symbol is above this number
-Read number 398
-Symbol is below this number
-Read number 763
-Symbol is above this number
-Read number 805
-Symbol is below this number
-Read number 338
-Symbol is below this number
-Read number 146
-Symbol is adjacent to this number
-Read number 916
-Symbol is adjacent to this number
-Read number 513
-Read number 20
-Read number 42
-Read number 828
-Symbol is above this number
-Read number 531
-Symbol is above this number
-Read number 159
-Symbol is adjacent to this number
-Read number 761
-Symbol is adjacent to this number
-Read number 78
-Read number 805
-Symbol is adjacent to this number
-Read number 598
-Symbol is below this number
-Read number 351
-Symbol is below this number
-Read number 34
-Symbol is below this number
-Read number 682
-Symbol is below this number
-Read number 516
-Symbol is above this number
-Read number 534
-Symbol is below this number
-Read number 283
-Read number 664
-Symbol is above this number
-Read number 255
-Symbol is below this number
-Read number 887
-Symbol is above this number
-Read number 258
-Symbol is below this number
-Read number 226
-Symbol is below this number
-Read number 931
-Symbol is above this number
-Read number 91
-Symbol is above this number
-Read number 128
-Symbol is above this number
-Read number 557
-Symbol is below this number
-Read number 938
-Symbol is adjacent to this number
-Read number 75
-Symbol is below this number
-Read number 585
-Symbol is below this number
-Read number 194
-Symbol is below this number
-Read number 686
-Symbol is above this number
-Read number 786
-Symbol is above this number
-Read number 755
-Symbol is above this number
-Read number 637
-Symbol is below this number
-Read number 988
-Symbol is below this number
-Read number 275
-Symbol is below this number
-Read number 35
-Symbol is below this number
-Read number 141
-Symbol is above this number
-Read number 508
-Symbol is above this number
-Read number 865
-Symbol is adjacent to this number
-Read number 967
-Symbol is above this number
-Read number 80
-Symbol is adjacent to this number
-Read number 978
-Read number 790
-Symbol is adjacent to this number
-Read number 662
-Symbol is above this number
-Read number 939
-Symbol is adjacent to this number
-Read number 204
-Symbol is below this number
-Read number 484
-Symbol is below this number
-Read number 34
-Symbol is below this number
-Read number 99
-Symbol is above this number
-Read number 350
-Symbol is above this number
-Read number 54
-Symbol is above this number
-Read number 358
-Symbol is below this number
-Read number 832
-Symbol is above this number
-Read number 307
-Symbol is below this number
-Read number 95
-Symbol is below this number
-Read number 654
-Symbol is below this number
-Read number 734
-Symbol is below this number
-Read number 491
-Symbol is above this number
-Read number 50
-Symbol is below this number
-Read number 924
-Read number 385
-Symbol is below this number
-Read number 340
-Symbol is above this number
-Read number 483
-Symbol is above this number
-Read number 118
-Symbol is above this number
-Read number 794
-Symbol is adjacent to this number
-Read number 431
-Symbol is above this number
-Read number 783
-Symbol is below this number
-Read number 594
-Symbol is adjacent to this number
-Read number 338
-Symbol is above this number
-Read number 94
-Symbol is above this number
-Read number 546
-Symbol is above this number
-Read number 187
-Symbol is below this number
-Read number 593
-Symbol is above this number
-Read number 768
-Symbol is below this number
-Read number 282
-Symbol is above this number
-Read number 796
-Symbol is below this number
-Read number 380
-Symbol is above this number
-Read number 183
-Symbol is below this number
-Read number 564
-Symbol is above this number
-Read number 94
-Symbol is below this number
-Read number 144
-Symbol is below this number
-Read number 138
-Symbol is above this number
-Read number 394
-Symbol is below this number
-Read number 392
-Symbol is below this number
-Read number 971
-Symbol is below this number
-Read number 928
-Symbol is adjacent to this number
-Read number 447
-Symbol is above this number
-Read number 275
-Symbol is above this number
-Read number 57
-Symbol is below this number
-Read number 233
-Symbol is below this number
-Read number 40
-Symbol is above this number
-Read number 945
-Symbol is below this number
-Read number 438
-Symbol is above this number
-Read number 906
-Read number 881
-Symbol is below this number
-Read number 491
-Symbol is above this number
-Read number 903
-Symbol is below this number
-Read number 918
-Symbol is below this number
-Read number 303
-Read number 578
-Symbol is adjacent to this number
-Read number 807
-Symbol is above this number
-Read number 597
-Symbol is below this number
-Read number 681
-Symbol is above this number
-Read number 539
-Symbol is above this number
-Read number 463
-Symbol is below this number
-Read number 467
-Symbol is adjacent to this number
-Read number 246
-Symbol is below this number
-Read number 577
-Symbol is below this number
-Read number 198
-Symbol is below this number
-Read number 245
-Symbol is above this number
-Read number 967
-Read number 988
-Symbol is above this number
-Read number 759
-Symbol is below this number
-Read number 889
-Symbol is adjacent to this number
-Read number 462
-Symbol is above this number
-Read number 978
-Symbol is below this number
-Read number 664
-Symbol is above this number
-Read number 731
-Symbol is adjacent to this number
-Read number 375
-Symbol is below this number
-Read number 217
-Symbol is above this number
-Read number 381
-Symbol is above this number
-Read number 250
-Symbol is above this number
-Read number 219
-Symbol is below this number
-Read number 947
-Symbol is below this number
-Read number 252
-Symbol is above this number
-Read number 258
-Symbol is above this number
-Read number 427
-Symbol is below this number
-Read number 137
-Read number 175
-Symbol is adjacent to this number
-Read number 864
-Symbol is below this number
-Read number 461
-Symbol is below this number
-Read number 234
-Symbol is above this number
-Read number 69
-Symbol is below this number
-Read number 222
-Symbol is above this number
-Read number 411
-Symbol is below this number
-Read number 651
-Symbol is below this number
-Read number 243
-Symbol is below this number
-Read number 283
-Symbol is adjacent to this number
-Read number 777
-Symbol is adjacent to this number
-Read number 92
-Symbol is above this number
-Read number 761
-Symbol is above this number
-Read number 581
-Symbol is adjacent to this number
-Read number 258
-Symbol is above this number
-Read number 867
-Symbol is below this number
-Read number 876
-Read number 916
-Symbol is above this number
-Read number 629
-Symbol is below this number
-Read number 911
-Symbol is adjacent to this number
-Read number 238
-Symbol is adjacent to this number
-Read number 680
-Symbol is above this number
-Read number 239
-Symbol is below this number
-Read number 672
-Symbol is above this number
-Read number 137
-Symbol is adjacent to this number
-Read number 469
-Symbol is below this number
-Read number 737
-Symbol is below this number
-Read number 764
-Read number 894
-Symbol is adjacent to this number
-Read number 289
-Symbol is below this number
-Read number 944
-Symbol is below this number
-Read number 876
-Symbol is adjacent to this number
-Read number 687
-Symbol is above this number
-Read number 436
-Symbol is above this number
-Read number 442
-Symbol is below this number
-Read number 255
-Symbol is below this number
-Read number 442
-Symbol is above this number
-Read number 903
-Symbol is below this number
-Read number 493
-Symbol is adjacent to this number
-Read number 338
-Symbol is above this number
-Read number 346
-Symbol is above this number
-Read number 927
-Symbol is above this number
-Read number 764
-Read number 536
-Symbol is above this number
-Read number 869
-Symbol is adjacent to this number
-Read number 888
-Symbol is adjacent to this number
-Read number 597
-Symbol is above this number
-Read number 241
-Symbol is above this number
-Read number 11
-Symbol is adjacent to this number
-Read number 542
-Symbol is adjacent to this number
-Read number 412
-Symbol is adjacent to this number
-Read number 235
-Read number 804
-Symbol is below this number
-Read number 329
-Symbol is below this number
-Read number 344
-Symbol is above this number
-Read number 195
-Symbol is above this number
-Read number 94
-Symbol is below this number
-Read number 880
-Symbol is above this number
-Read number 44
-Read number 622
-Symbol is below this number
-Read number 342
-Read number 18
-Symbol is below this number
-Read number 417
-Read number 76
-Symbol is below this number
-Read number 328
-Symbol is below this number
-Read number 803
-Symbol is below this number
-Read number 658
-Symbol is below this number
-Read number 254
-Symbol is above this number
-Read number 327
-Symbol is below this number
-Read number 340
-Symbol is below this number
-Read number 254
-Symbol is above this number
-Read number 234
-Symbol is adjacent to this number
-Read number 20
-Read number 238
-Read number 380
-Symbol is above this number
-Read number 78
-Symbol is below this number
-Read number 246
-Symbol is adjacent to this number
-Read number 598
-Symbol is below this number
-Read number 96
-Symbol is below this number
-Read number 990
-Symbol is below this number
-Read number 718
-Symbol is above this number
-Read number 869
-Symbol is above this number
-Read number 596
-Symbol is below this number
-Read number 423
-Symbol is below this number
-Read number 433
-Symbol is above this number
-Read number 93
-Symbol is below this number
-Read number 613
-Symbol is above this number
-Read number 905
-Symbol is above this number
-Read number 497
-Symbol is below this number
-Read number 86
-Symbol is above this number
-Read number 499
-Symbol is above this number
-Read number 385
-Symbol is above this number
-Read number 296
-Symbol is above this number
-Read number 523
-Symbol is above this number
-Read number 529
-Symbol is above this number
-Read number 780
-Symbol is above this number
-Read number 685
-Symbol is above this number
-Read number 822
-Symbol is above this number
-Read number 560
-Read number 35
-Symbol is above this number
-Read number 529
-Symbol is above this number
-Read number 780
-Symbol is above this number
-Read number 453
-Symbol is above this number
-Read number 711
-Symbol is above this number
-Read number 930
-Symbol is above this number
-Answer: 540025
+Line Sum: 0
+Found a gear at 6
+Gear is touching 2 nums
+Found a gear at 15
+Gear is touching 2 nums
+Found a gear at 34
+Gear is touching 2 nums
+Found a gear at 52
+Gear is touching 2 nums
+Found a gear at 70
+Gear is touching 2 nums
+Found a gear at 97
+Gear is touching 2 nums
+Line Sum: 1621351
+Found a gear at 62
+Gear is touching 2 nums
+Found a gear at 92
+Gear is touching 2 nums
+Found a gear at 108
+Gear is touching 2 nums
+Line Sum: 414091
+Found a gear at 26
+Gear is touching 2 nums
+Found a gear at 99
+Gear is touching 2 nums
+Found a gear at 133
+Gear is touching 2 nums
+Line Sum: 470235
+Found a gear at 16
+Gear is touching 2 nums
+Found a gear at 29
+Gear is touching 2 nums
+Found a gear at 46
+Gear is touching 2 nums
+Line Sum: 631492
+Found a gear at 6
+Gear is touching 2 nums
+Found a gear at 61
+Gear is touching 2 nums
+Found a gear at 116
+Gear is touching 2 nums
+Line Sum: 1027069
+Found a gear at 35
+Gear is touching 2 nums
+Found a gear at 109
+Gear is touching 2 nums
+Line Sum: 1080694
+Found a gear at 73
+Gear is touching 2 nums
+Found a gear at 84
+Gear is touching 2 nums
+Found a gear at 113
+Gear is touching 2 nums
+Found a gear at 128
+Gear is touching 2 nums
+Line Sum: 618062
+Found a gear at 19
+Gear is touching 2 nums
+Found a gear at 27
+Gear is touching 2 nums
+Line Sum: 146112
+Found a gear at 95
+Gear is touching 2 nums
+Found a gear at 118
+Gear is touching 2 nums
+Line Sum: 476733
+Found a gear at 6
+Gear is touching 2 nums
+Found a gear at 43
+Gear is touching 2 nums
+Found a gear at 93
+Gear is touching 1 nums
+Found a gear at 123
+Gear is touching 1 nums
+Line Sum: 425160
+Found a gear at 22
+Gear is touching 2 nums
+Found a gear at 53
+Gear is touching 2 nums
+Line Sum: 652709
+Found a gear at 72
+Gear is touching 2 nums
+Found a gear at 87
+Gear is touching 2 nums
+Found a gear at 128
+Gear is touching 2 nums
+Line Sum: 824334
+Found a gear at 10
+Gear is touching 2 nums
+Found a gear at 67
+Gear is touching 2 nums
+Found a gear at 78
+Gear is touching 2 nums
+Line Sum: 525714
+Line Sum: 0
+Found a gear at 28
+Gear is touching 2 nums
+Found a gear at 134
+Gear is touching 2 nums
+Line Sum: 409800
+Line Sum: 0
+Found a gear at 53
+Gear is touching 2 nums
+Found a gear at 59
+Gear is touching 2 nums
+Found a gear at 71
+Gear is touching 2 nums
+Found a gear at 117
+Gear is touching 2 nums
+Line Sum: 922976
+Found a gear at 49
+Gear is touching 1 nums
+Found a gear at 134
+Gear is touching 2 nums
+Line Sum: 2056
+Found a gear at 77
+Gear is touching 2 nums
+Line Sum: 389623
+Line Sum: 0
+Found a gear at 29
+Gear is touching 2 nums
+Found a gear at 61
+Gear is touching 2 nums
+Found a gear at 110
+Gear is touching 2 nums
+Line Sum: 972007
+Found a gear at 48
+Gear is touching 2 nums
+Found a gear at 55
+Gear is touching 2 nums
+Found a gear at 64
+Gear is touching 2 nums
+Found a gear at 76
+Gear is touching 2 nums
+Line Sum: 790843
+Found a gear at 81
+Gear is touching 1 nums
+Found a gear at 86
+Gear is touching 2 nums
+Line Sum: 126720
+Line Sum: 0
+Found a gear at 9
+Gear is touching 2 nums
+Found a gear at 110
+Gear is touching 2 nums
+Found a gear at 135
+Gear is touching 2 nums
+Line Sum: 639325
+Found a gear at 15
+Gear is touching 1 nums
+Found a gear at 40
+Gear is touching 2 nums
+Found a gear at 92
+Gear is touching 1 nums
+Line Sum: 52001
+Found a gear at 57
+Gear is touching 2 nums
+Found a gear at 83
+Gear is touching 2 nums
+Found a gear at 135
+Gear is touching 2 nums
+Line Sum: 949286
+Found a gear at 7
+Gear is touching 1 nums
+Line Sum: 0
+Found a gear at 87
+Gear is touching 2 nums
+Found a gear at 124
+Gear is touching 2 nums
+Line Sum: 1020913
+Found a gear at 54
+Gear is touching 2 nums
+Found a gear at 62
+Gear is touching 2 nums
+Found a gear at 76
+Gear is touching 2 nums
+Line Sum: 857456
+Line Sum: 0
+Found a gear at 18
+Gear is touching 2 nums
+Found a gear at 66
+Gear is touching 2 nums
+Line Sum: 154042
+Found a gear at 11
+Gear is touching 2 nums
+Found a gear at 106
+Gear is touching 2 nums
+Found a gear at 130
+Gear is touching 2 nums
+Line Sum: 1086100
+Found a gear at 111
+Gear is touching 2 nums
+Line Sum: 219051
+Found a gear at 19
+Gear is touching 2 nums
+Found a gear at 25
+Gear is touching 2 nums
+Found a gear at 31
+Gear is touching 1 nums
+Found a gear at 44
+Gear is touching 2 nums
+Found a gear at 97
+Gear is touching 2 nums
+Line Sum: 1218674
+Found a gear at 50
+Gear is touching 2 nums
+Found a gear at 63
+Gear is touching 2 nums
+Found a gear at 129
+Gear is touching 2 nums
+Line Sum: 534760
+Found a gear at 4
+Gear is touching 2 nums
+Found a gear at 87
+Gear is touching 2 nums
+Line Sum: 893142
+Line Sum: 0
+Found a gear at 12
+Gear is touching 2 nums
+Found a gear at 50
+Gear is touching 1 nums
+Found a gear at 58
+Gear is touching 2 nums
+Found a gear at 104
+Gear is touching 2 nums
+Found a gear at 113
+Gear is touching 2 nums
+Found a gear at 119
+Gear is touching 2 nums
+Line Sum: 1067940
+Found a gear at 15
+Gear is touching 2 nums
+Found a gear at 30
+Gear is touching 2 nums
+Found a gear at 97
+Gear is touching 2 nums
+Found a gear at 128
+Gear is touching 2 nums
+Line Sum: 2030963
+Found a gear at 25
+Gear is touching 2 nums
+Found a gear at 77
+Gear is touching 2 nums
+Line Sum: 99492
+Found a gear at 3
+Gear is touching 2 nums
+Line Sum: 2144
+Found a gear at 18
+Gear is touching 2 nums
+Found a gear at 53
+Gear is touching 2 nums
+Found a gear at 66
+Gear is touching 2 nums
+Found a gear at 92
+Gear is touching 2 nums
+Found a gear at 123
+Gear is touching 2 nums
+Line Sum: 1317119
+Found a gear at 30
+Gear is touching 2 nums
+Found a gear at 109
+Gear is touching 2 nums
+Line Sum: 1741977
+Line Sum: 0
+Found a gear at 40
+Gear is touching 2 nums
+Found a gear at 54
+Gear is touching 2 nums
+Line Sum: 181514
+Found a gear at 6
+Gear is touching 2 nums
+Found a gear at 33
+Gear is touching 2 nums
+Found a gear at 64
+Gear is touching 1 nums
+Found a gear at 68
+Gear is touching 2 nums
+Found a gear at 74
+Gear is touching 2 nums
+Found a gear at 101
+Gear is touching 2 nums
+Line Sum: 1179514
+Found a gear at 17
+Gear is touching 2 nums
+Found a gear at 59
+Gear is touching 2 nums
+Found a gear at 118
+Gear is touching 2 nums
+Line Sum: 426833
+Line Sum: 0
+Found a gear at 45
+Gear is touching 2 nums
+Found a gear at 77
+Gear is touching 1 nums
+Line Sum: 210236
+Found a gear at 13
+Gear is touching 2 nums
+Found a gear at 67
+Gear is touching 2 nums
+Found a gear at 136
+Gear is touching 2 nums
+Line Sum: 1322091
+Found a gear at 115
+Gear is touching 2 nums
+Line Sum: 233788
+Found a gear at 4
+Gear is touching 2 nums
+Found a gear at 42
+Gear is touching 2 nums
+Found a gear at 52
+Gear is touching 2 nums
+Found a gear at 69
+Gear is touching 2 nums
+Line Sum: 1380509
+Found a gear at 16
+Gear is touching 2 nums
+Found a gear at 89
+Gear is touching 1 nums
+Line Sum: 104668
+Found a gear at 74
+Gear is touching 2 nums
+Found a gear at 79
+Gear is touching 2 nums
+Line Sum: 242410
+Found a gear at 116
+Gear is touching 2 nums
+Found a gear at 130
+Gear is touching 2 nums
+Line Sum: 1486726
+Found a gear at 28
+Gear is touching 2 nums
+Line Sum: 19038
+Found a gear at 11
+Gear is touching 2 nums
+Found a gear at 57
+Gear is touching 2 nums
+Found a gear at 64
+Gear is touching 2 nums
+Line Sum: 1263951
+Found a gear at 24
+Gear is touching 2 nums
+Found a gear at 75
+Gear is touching 2 nums
+Found a gear at 108
+Gear is touching 2 nums
+Line Sum: 698749
+Found a gear at 5
+Gear is touching 2 nums
+Found a gear at 22
+Gear is touching 2 nums
+Found a gear at 30
+Gear is touching 2 nums
+Found a gear at 69
+Gear is touching 2 nums
+Line Sum: 1370726
+Found a gear at 44
+Gear is touching 2 nums
+Found a gear at 51
+Gear is touching 2 nums
+Found a gear at 89
+Gear is touching 2 nums
+Found a gear at 134
+Gear is touching 2 nums
+Line Sum: 1337724
+Found a gear at 12
+Gear is touching 2 nums
+Found a gear at 110
+Gear is touching 2 nums
+Line Sum: 514436
+Found a gear at 126
+Gear is touching 1 nums
+Line Sum: 0
+Line Sum: 0
+Found a gear at 16
+Gear is touching 2 nums
+Found a gear at 100
+Gear is touching 1 nums
+Line Sum: 21996
+Found a gear at 7
+Gear is touching 2 nums
+Found a gear at 108
+Gear is touching 2 nums
+Line Sum: 1318133
+Found a gear at 71
+Gear is touching 2 nums
+Line Sum: 320780
+Found a gear at 4
+Gear is touching 2 nums
+Found a gear at 12
+Gear is touching 2 nums
+Found a gear at 22
+Gear is touching 2 nums
+Found a gear at 26
+Gear is touching 2 nums
+Found a gear at 50
+Gear is touching 2 nums
+Line Sum: 2040656
+Found a gear at 45
+Gear is touching 2 nums
+Found a gear at 132
+Gear is touching 1 nums
+Line Sum: 35968
+Found a gear at 76
+Gear is touching 2 nums
+Found a gear at 126
+Gear is touching 2 nums
+Line Sum: 325347
+Found a gear at 61
+Gear is touching 2 nums
+Found a gear at 71
+Gear is touching 2 nums
+Found a gear at 106
+Gear is touching 2 nums
+Found a gear at 118
+Gear is touching 2 nums
+Line Sum: 1416635
+Found a gear at 37
+Gear is touching 2 nums
+Found a gear at 57
+Gear is touching 2 nums
+Found a gear at 83
+Gear is touching 2 nums
+Line Sum: 362111
+Found a gear at 96
+Gear is touching 2 nums
+Found a gear at 121
+Gear is touching 2 nums
+Found a gear at 125
+Gear is touching 2 nums
+Line Sum: 1101509
+Found a gear at 12
+Gear is touching 2 nums
+Found a gear at 17
+Gear is touching 2 nums
+Found a gear at 54
+Gear is touching 1 nums
+Line Sum: 540199
+Found a gear at 75
+Gear is touching 2 nums
+Found a gear at 88
+Gear is touching 2 nums
+Line Sum: 288627
+Line Sum: 0
+Found a gear at 29
+Gear is touching 2 nums
+Found a gear at 39
+Gear is touching 2 nums
+Found a gear at 136
+Gear is touching 2 nums
+Line Sum: 1203234
+Found a gear at 5
+Gear is touching 2 nums
+Found a gear at 52
+Gear is touching 2 nums
+Found a gear at 86
+Gear is touching 2 nums
+Found a gear at 103
+Gear is touching 2 nums
+Found a gear at 121
+Gear is touching 1 nums
+Line Sum: 743981
+Found a gear at 17
+Gear is touching 2 nums
+Found a gear at 79
+Gear is touching 2 nums
+Found a gear at 124
+Gear is touching 1 nums
+Found a gear at 136
+Gear is touching 1 nums
+Line Sum: 5507
+Found a gear at 66
+Gear is touching 2 nums
+Found a gear at 88
+Gear is touching 2 nums
+Found a gear at 118
+Gear is touching 2 nums
+Line Sum: 222320
+Found a gear at 58
+Gear is touching 2 nums
+Found a gear at 99
+Gear is touching 1 nums
+Found a gear at 109
+Gear is touching 2 nums
+Line Sum: 666045
+Found a gear at 46
+Gear is touching 2 nums
+Found a gear at 60
+Gear is touching 2 nums
+Found a gear at 136
+Gear is touching 2 nums
+Line Sum: 605891
+Found a gear at 11
+Gear is touching 2 nums
+Found a gear at 25
+Gear is touching 2 nums
+Found a gear at 88
+Gear is touching 2 nums
+Line Sum: 408890
+Found a gear at 40
+Gear is touching 2 nums
+Found a gear at 55
+Gear is touching 2 nums
+Found a gear at 133
+Gear is touching 2 nums
+Line Sum: 971126
+Found a gear at 4
+Gear is touching 2 nums
+Found a gear at 30
+Gear is touching 2 nums
+Found a gear at 74
+Gear is touching 2 nums
+Line Sum: 160499
+Found a gear at 26
+Gear is touching 2 nums
+Found a gear at 102
+Gear is touching 2 nums
+Found a gear at 117
+Gear is touching 2 nums
+Line Sum: 260467
+Found a gear at 36
+Gear is touching 2 nums
+Found a gear at 51
+Gear is touching 2 nums
+Found a gear at 85
+Gear is touching 2 nums
+Found a gear at 96
+Gear is touching 2 nums
+Found a gear at 113
+Gear is touching 2 nums
+Found a gear at 122
+Gear is touching 2 nums
+Line Sum: 432826
+Found a gear at 60
+Gear is touching 2 nums
+Found a gear at 105
+Gear is touching 2 nums
+Found a gear at 129
+Gear is touching 2 nums
+Line Sum: 1261450
+Found a gear at 4
+Gear is touching 2 nums
+Found a gear at 86
+Gear is touching 2 nums
+Line Sum: 1002932
+Found a gear at 28
+Gear is touching 2 nums
+Found a gear at 37
+Gear is touching 2 nums
+Found a gear at 81
+Gear is touching 2 nums
+Found a gear at 112
+Gear is touching 2 nums
+Found a gear at 121
+Gear is touching 2 nums
+Line Sum: 871064
+Found a gear at 19
+Gear is touching 2 nums
+Found a gear at 54
+Gear is touching 2 nums
+Found a gear at 102
+Gear is touching 2 nums
+Line Sum: 1338152
+Found a gear at 35
+Gear is touching 2 nums
+Line Sum: 674904
+Found a gear at 25
+Gear is touching 1 nums
+Found a gear at 88
+Gear is touching 2 nums
+Found a gear at 131
+Gear is touching 2 nums
+Line Sum: 1125510
+Found a gear at 10
+Gear is touching 2 nums
+Found a gear at 30
+Gear is touching 2 nums
+Found a gear at 81
+Gear is touching 2 nums
+Found a gear at 101
+Gear is touching 2 nums
+Found a gear at 123
+Gear is touching 1 nums
+Line Sum: 1579984
+Line Sum: 0
+Found a gear at 19
+Gear is touching 2 nums
+Found a gear at 40
+Gear is touching 2 nums
+Found a gear at 61
+Gear is touching 1 nums
+Line Sum: 79684
+Found a gear at 45
+Gear is touching 2 nums
+Line Sum: 2154
+Found a gear at 27
+Gear is touching 2 nums
+Found a gear at 57
+Gear is touching 2 nums
+Found a gear at 77
+Gear is touching 2 nums
+Found a gear at 91
+Gear is touching 2 nums
+Line Sum: 955971
+Found a gear at 52
+Gear is touching 1 nums
+Found a gear at 118
+Gear is touching 2 nums
+Line Sum: 116000
+Found a gear at 36
+Gear is touching 2 nums
+Found a gear at 72
+Gear is touching 2 nums
+Found a gear at 85
+Gear is touching 1 nums
+Line Sum: 127720
+Found a gear at 6
+Gear is touching 2 nums
+Found a gear at 26
+Gear is touching 1 nums
+Line Sum: 212676
+Found a gear at 11
+Gear is touching 2 nums
+Found a gear at 21
+Gear is touching 2 nums
+Found a gear at 48
+Gear is touching 2 nums
+Found a gear at 87
+Gear is touching 2 nums
+Found a gear at 114
+Gear is touching 2 nums
+Line Sum: 786587
+Found a gear at 32
+Gear is touching 2 nums
+Found a gear at 92
+Gear is touching 2 nums
+Found a gear at 131
+Gear is touching 2 nums
+Line Sum: 662862
+Found a gear at 38
+Gear is touching 2 nums
+Found a gear at 71
+Gear is touching 2 nums
+Line Sum: 571406
+Found a gear at 7
+Gear is touching 2 nums
+Found a gear at 52
+Gear is touching 2 nums
+Found a gear at 77
+Gear is touching 2 nums
+Found a gear at 97
+Gear is touching 2 nums
+Found a gear at 114
+Gear is touching 2 nums
+Found a gear at 125
+Gear is touching 2 nums
+Line Sum: 1402574
+Found a gear at 18
+Gear is touching 2 nums
+Found a gear at 57
+Gear is touching 2 nums
+Line Sum: 1018772
+Found a gear at 49
+Gear is touching 2 nums
+Found a gear at 81
+Gear is touching 2 nums
+Found a gear at 136
+Gear is touching 2 nums
+Line Sum: 609950
+Found a gear at 69
+Gear is touching 2 nums
+Line Sum: 305085
+Found a gear at 19
+Gear is touching 1 nums
+Found a gear at 74
+Gear is touching 2 nums
+Found a gear at 112
+Gear is touching 2 nums
+Line Sum: 227656
+Found a gear at 4
+Gear is touching 2 nums
+Found a gear at 27
+Gear is touching 2 nums
+Line Sum: 288926
+Found a gear at 46
+Gear is touching 2 nums
+Line Sum: 418528
+Found a gear at 41
+Gear is touching 2 nums
+Found a gear at 102
+Gear is touching 2 nums
+Found a gear at 112
+Gear is touching 2 nums
+Line Sum: 568571
+Found a gear at 79
+Gear is touching 2 nums
+Found a gear at 120
+Gear is touching 2 nums
+Line Sum: 536379
+Found a gear at 100
+Gear is touching 2 nums
+Line Sum: 84721
+Found a gear at 63
+Gear is touching 2 nums
+Found a gear at 73
+Gear is touching 2 nums
+Found a gear at 86
+Gear is touching 2 nums
+Line Sum: 962546
+Found a gear at 30
+Gear is touching 2 nums
+Found a gear at 46
+Gear is touching 2 nums
+Line Sum: 167019
+Found a gear at 4
+Gear is touching 2 nums
+Found a gear at 27
+Gear is touching 1 nums
+Found a gear at 51
+Gear is touching 2 nums
+Found a gear at 91
+Gear is touching 2 nums
+Found a gear at 121
+Gear is touching 2 nums
+Found a gear at 131
+Gear is touching 2 nums
+Line Sum: 1339834
+Found a gear at 22
+Gear is touching 2 nums
+Line Sum: 29120
+Found a gear at 68
+Gear is touching 2 nums
+Found a gear at 81
+Gear is touching 2 nums
+Line Sum: 232676
+Found a gear at 12
+Gear is touching 2 nums
+Found a gear at 58
+Gear is touching 2 nums
+Found a gear at 74
+Gear is touching 2 nums
+Found a gear at 99
+Gear is touching 2 nums
+Found a gear at 121
+Gear is touching 2 nums
+Line Sum: 1278279
+Found a gear at 53
+Gear is touching 1 nums
+Found a gear at 96
+Gear is touching 2 nums
+Line Sum: 350001
+Found a gear at 117
+Gear is touching 2 nums
+Line Sum: 81906
+Found a gear at 17
+Gear is touching 2 nums
+Found a gear at 39
+Gear is touching 2 nums
+Found a gear at 72
+Gear is touching 2 nums
+Found a gear at 130
+Gear is touching 2 nums
+Line Sum: 925879
+Found a gear at 67
+Gear is touching 2 nums
+Found a gear at 79
+Gear is touching 2 nums
+Line Sum: 802589
+Found a gear at 6
+Gear is touching 2 nums
+Found a gear at 24
+Gear is touching 2 nums
+Found a gear at 33
+Gear is touching 2 nums
+Found a gear at 108
+Gear is touching 2 nums
+Line Sum: 1584570
+Found a gear at 40
+Gear is touching 2 nums
+Line Sum: 61992
+Found a gear at 61
+Gear is touching 2 nums
+Line Sum: 83250
+Found a gear at 71
+Gear is touching 2 nums
+Line Sum: 70012
+Found a gear at 4
+Gear is touching 2 nums
+Found a gear at 29
+Gear is touching 2 nums
+Found a gear at 58
+Gear is touching 2 nums
+Found a gear at 82
+Gear is touching 2 nums
+Line Sum: 1244999
+Found a gear at 43
+Gear is touching 2 nums
+Found a gear at 118
+Gear is touching 2 nums
+Line Sum: 812447
+Found a gear at 21
+Gear is touching 2 nums
+Found a gear at 105
+Gear is touching 2 nums
+Found a gear at 127
+Gear is touching 2 nums
+Line Sum: 1107813
+Found a gear at 39
+Gear is touching 2 nums
+Found a gear at 45
+Gear is touching 2 nums
+Line Sum: 291346
+Found a gear at 9
+Gear is touching 2 nums
+Found a gear at 15
+Gear is touching 1 nums
+Found a gear at 24
+Gear is touching 2 nums
+Found a gear at 33
+Gear is touching 2 nums
+Found a gear at 88
+Gear is touching 2 nums
+Line Sum: 1423027
+Found a gear at 68
+Gear is touching 1 nums
+Line Sum: 0
+Found a gear at 4
+Gear is touching 2 nums
+Found a gear at 103
+Gear is touching 2 nums
+Line Sum: 500876
+Found a gear at 36
+Gear is touching 2 nums
+Found a gear at 40
+Gear is touching 1 nums
+Found a gear at 52
+Gear is touching 2 nums
+Found a gear at 83
+Gear is touching 2 nums
+Found a gear at 94
+Gear is touching 2 nums
+Line Sum: 603957
+Found a gear at 50
+Gear is touching 2 nums
+Found a gear at 129
+Gear is touching 2 nums
+Line Sum: 430302
+Found a gear at 3
+Gear is touching 2 nums
+Found a gear at 8
+Gear is touching 2 nums
+Found a gear at 43
+Gear is touching 2 nums
+Found a gear at 73
+Gear is touching 2 nums
+Found a gear at 85
+Gear is touching 2 nums
+Found a gear at 135
+Gear is touching 2 nums
+Line Sum: 1532407
+Line Sum: 0
+Answer: 84584891

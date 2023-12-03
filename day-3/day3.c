@@ -25,59 +25,265 @@ int getNumRead(char *line, int startIndex, int endIndex) {
     return numInt;
 }
 
-int isSymbol(char c) {
-    if(c == '.') {
-        return 0;
-    } else if(ispunct(c)) {
+int isGear(char c) {
+    if(c == '*') {
         return 1;
     } else {
         return 0;
     }
 }
 
-int checkAboveOrBelow(char *lineToCheck, int startIndex, int endIndex, int lineLength) {
-    if(startIndex - 1 < 0) {
-        for(int i = startIndex; i <= endIndex + 1; i++) {
-            if(isSymbol(lineToCheck[i])) {
-                return 1;
+int getNumAboveOrBelow(char *line, int gearIndex, int lineLength) {
+    int i = 1;
+    int num;
+    int numLength = 0;
+    int startIndex = gearIndex, endIndex;
+
+    while(gearIndex - i >= 0 && isdigit(line[gearIndex - i])) {
+        startIndex--;
+        i++;
+    }
+
+    i = 1;
+    while(startIndex + i < lineLength && isdigit(line[startIndex+i])) {
+        numLength++;
+        i++;
+    }
+    
+    endIndex = startIndex + numLength;
+
+    num = getNumRead(line, startIndex, endIndex);
+    // printf("Found %d above or below gear\n", num);
+    return num;
+}   
+
+int getNumLeft(char *line, int gearIndex, int lineLength) {
+    int i = 1;
+    int num;
+    int numLength = 0;
+    int startIndex, endIndex;
+
+    while(gearIndex - i >= 0 && isdigit(line[gearIndex - i])) {
+        numLength++;
+        i++;
+    }
+
+    startIndex = gearIndex - numLength;
+    endIndex = gearIndex - 1;
+
+    num = getNumRead(line, startIndex, endIndex);
+    // printf("Found %d to the left of gear\n", num);
+    return num;
+}
+
+int getNumRight(char *line, int gearIndex, int lineLength) {
+    int i = 1;
+    int num;
+    int numLength = 0;
+    int startIndex, endIndex;
+
+    while(gearIndex + i < lineLength && isdigit(line[gearIndex + i])) {
+        numLength++;
+        i++;
+    }
+
+    startIndex = gearIndex + 1;
+    endIndex = gearIndex + numLength;
+
+    num = getNumRead(line, startIndex, endIndex);
+    // printf("Found %d to the right of gear\n", num);
+    return num;
+}
+
+int checkTouching(char *line, char *aboveLine, char *belowLine, int gearIndex, int lineLength, int flag) {
+    int numTouching = 0;
+    int num1 = 0;
+    int num2 = 0;
+    int num1Set = 0;
+
+    if(gearIndex - 1 < 0) {
+        if(isdigit(line[gearIndex + 1])) { //to the right
+            numTouching++;
+            if(num1Set == 0) {
+                num1 = getNumRight(line, gearIndex, lineLength);
+                num1Set = 1;
+            } else {
+                num2 = getNumRight(line, gearIndex, lineLength);
             }
         }
-    } else if(startIndex + 1 > lineLength) {
-        for(int i = startIndex - 1; i <= endIndex; i++) {
-            if(isSymbol(lineToCheck[i])) {
-                return 1;
+        if(flag != FIRST_LINE) {
+            if(isdigit(aboveLine[gearIndex])) { //directly above
+                numTouching++;
+                if(num1Set == 0) {
+                    num1 = getNumAboveOrBelow(aboveLine, gearIndex, lineLength);
+                    num1Set = 1;
+                } else {
+                    num2 = getNumAboveOrBelow(aboveLine, gearIndex, lineLength);
+                }
+            } else if(isdigit(aboveLine[gearIndex + 1])) { //diagonal above right
+                numTouching++;
+                if(num1Set == 0) {
+                    num1 = getNumRight(aboveLine, gearIndex, lineLength);
+                    num1Set = 1;
+                } else {
+                    num2 = getNumRight(aboveLine, gearIndex, lineLength);
+                }
+            }
+        }
+        if(flag != LAST_LINE) {
+            if(isdigit(belowLine[gearIndex])) { //directly below
+                numTouching++;
+                if(num1Set == 0) {
+                    num1 = getNumAboveOrBelow(belowLine, gearIndex, lineLength);
+                    num1Set = 1;
+                } else {
+                    num2 = getNumAboveOrBelow(belowLine, gearIndex, lineLength);
+                }
+            } else if(isdigit(belowLine[gearIndex + 1])) { //diagonal below right
+                numTouching++;
+                if(num1Set == 0) {
+                    num1 = getNumRight(belowLine, gearIndex, lineLength);
+                    num1Set = 1;
+                } else {
+                    num2 = getNumRight(belowLine, gearIndex, lineLength);
+                }
+            }
+        }
+    } else if(gearIndex + 1 > lineLength) {
+        if(isdigit(line[gearIndex - 1])) { //to the left
+            numTouching++;
+            if(num1Set == 0) {
+                num1 = getNumLeft(line, gearIndex, lineLength);
+                num1Set = 1;
+            } else {
+                num2 = getNumLeft(line, gearIndex, lineLength);
+            }
+        } 
+        if(flag != FIRST_LINE) {
+            if(isdigit(aboveLine[gearIndex])) { //directly above
+                numTouching++;
+                if(num1Set == 0) {
+                    num1 = getNumAboveOrBelow(aboveLine, gearIndex, lineLength);
+                    num1Set = 1;
+                } else {
+                    num2 = getNumAboveOrBelow(aboveLine, gearIndex, lineLength);
+                }
+            } else if(isdigit(aboveLine[gearIndex - 1])) { //diagonal above left
+                numTouching++;
+                if(num1Set == 0) {
+                    num1 = getNumLeft(aboveLine, gearIndex, lineLength);
+                    num1Set = 1;
+                } else {
+                    num2 = getNumLeft(aboveLine, gearIndex, lineLength);
+                }
+            }
+        }
+        if(flag != LAST_LINE) {
+            if(isdigit(belowLine[gearIndex])) { //directly below
+                numTouching++;
+                if(num1Set == 0) {
+                    num1 = getNumAboveOrBelow(belowLine, gearIndex, lineLength);
+                    num1Set = 1;
+                } else {
+                    num2 = getNumAboveOrBelow(belowLine, gearIndex, lineLength);
+                }
+            } else if(isdigit(belowLine[gearIndex - 1])) { //diagonal below left
+                numTouching++;
+                if(num1Set == 0) {
+                    num1 = getNumLeft(belowLine, gearIndex, lineLength);
+                    num1Set = 1;
+                } else {
+                    num2 = getNumLeft(belowLine, gearIndex, lineLength);
+                }
             }
         }
     } else {
-        for(int i = startIndex - 1; i <= endIndex + 1; i++) {
-            if(isSymbol(lineToCheck[i])) {
-                return 1;
+        if(isdigit(line[gearIndex - 1])) { //to the left
+            numTouching++;
+            if(num1Set == 0) {
+                num1 = getNumLeft(line, gearIndex, lineLength);
+                num1Set = 1;
+            } else {
+                num2 = getNumLeft(line, gearIndex, lineLength);
+            }
+        }
+        if(isdigit(line[gearIndex + 1])) { //to the right
+            numTouching++;
+            if(num1Set == 0) {
+                num1 = getNumRight(line, gearIndex, lineLength);
+                num1Set = 1;
+            } else {
+                num2 = getNumRight(line, gearIndex, lineLength);
+            }
+        }
+        if(flag != FIRST_LINE) {
+            if(isdigit(aboveLine[gearIndex])) { //directly above
+                numTouching++;
+                if(num1Set == 0) {
+                    num1 = getNumAboveOrBelow(aboveLine, gearIndex, lineLength);
+                    num1Set = 1;
+                } else {
+                    num2 = getNumAboveOrBelow(aboveLine, gearIndex, lineLength);
+                }
+            } else {
+                if(isdigit(aboveLine[gearIndex - 1])) { //diagonal above left
+                    numTouching++;
+                    if(num1Set == 0) {
+                        num1 = getNumLeft(aboveLine, gearIndex, lineLength);
+                        num1Set = 1;
+                    } else {
+                        num2 = getNumLeft(aboveLine, gearIndex, lineLength);
+                    }
+                }
+                if(isdigit(aboveLine[gearIndex + 1])) { //diagonal above right
+                    numTouching++;
+                    if(num1Set == 0) {
+                        num1 = getNumRight(aboveLine, gearIndex, lineLength);
+                        num1Set = 1;
+                    } else {
+                        num2 = getNumRight(aboveLine, gearIndex, lineLength);
+                    }
+                }
+            }
+        }
+        if(flag != LAST_LINE) {
+            if(isdigit(belowLine[gearIndex])) { //directly below
+                numTouching++;
+                if(num1Set == 0) {
+                    num1 = getNumAboveOrBelow(belowLine, gearIndex, lineLength);
+                    num1Set = 1;
+                } else {
+                    num2 = getNumAboveOrBelow(belowLine, gearIndex, lineLength);
+                }
+            } else {
+                if(isdigit(belowLine[gearIndex - 1])) { //diagonal below left
+                    numTouching++;
+                    if(num1Set == 0) {
+                        num1 = getNumLeft(belowLine, gearIndex, lineLength);
+                        num1Set = 1;
+                    } else {
+                        num2 = getNumLeft(belowLine, gearIndex, lineLength);
+                    }
+                }
+                if(isdigit(belowLine[gearIndex + 1])) { //diagonal below right
+                    numTouching++;
+                    if(num1Set == 0) {
+                        num1 = getNumRight(belowLine, gearIndex, lineLength);
+                        num1Set = 1;
+                    } else {
+                        num2 = getNumRight(belowLine, gearIndex, lineLength);
+                    }
+                }
             }
         }
     }
 
-    return 0;
-}
+    printf("Gear is touching %d nums\n", numTouching);
 
-int checkAdjacent(char *line, int startIndex, int endIndex, int lineLength) {
-    if(startIndex - 1 < 0) {
-        if(isSymbol(line[endIndex + 1])) {
-            return 1;
-        } else {
-            return 0;
-        }
-    } else if(endIndex + 1 > lineLength) {
-        if(isSymbol(line[startIndex - 1])) {
-            return 1;
-        } else {
-            return 0;
-        }
+    if(numTouching == 2) {
+        return num1 * num2;
     } else {
-        if(isSymbol(line[startIndex - 1]) || isSymbol(line[endIndex + 1])) {
-            return 1;
-        } else {
-            return 0;
-        }
+        return -1;
     }
 }
 
@@ -85,50 +291,25 @@ int processLine(char *line, char *aboveLine, char *belowLine, int lineLength, in
     int j = 1;
     int startNumIndex = 0;
     int endNumIndex = 0;
+    int gearIndex = 0;
     int num;
-    int above = 0, below = 0, adjacent = 0;
+    int gearRatio = 0;
     int sum = 0;
 
     for(int i = 0; i < lineLength; i++) {
-        if(isdigit(line[i])) {
-            startNumIndex = i;
+        if(isGear(line[i])) {
+            gearIndex = i;
+            printf("Found a gear at %d\n", i);
 
-            while(isdigit(line[i+j])) {
-                j++;
-            }
+            gearRatio = checkTouching(line, aboveLine, belowLine, gearIndex, lineLength, flag);
 
-            endNumIndex = i += j - 1;
-            num = getNumRead(line, startNumIndex, endNumIndex);
-            printf("Read number %d\n", num);
-
-            adjacent = checkAdjacent(line, startNumIndex, endNumIndex, lineLength);
-            if(flag == FIRST_LINE) {
-                below = checkAboveOrBelow(belowLine, startNumIndex, endNumIndex, bLength);
-            } else if(flag == LAST_LINE) {
-                above = checkAboveOrBelow(aboveLine, startNumIndex, endNumIndex, aLength);
-            } else {
-                below = checkAboveOrBelow(belowLine, startNumIndex, endNumIndex, bLength);
-                above = checkAboveOrBelow(aboveLine, startNumIndex, endNumIndex, aLength);
+            if(gearRatio > 0) {
+                sum += gearRatio;
             }
-
-            if(adjacent == 1) {
-                printf("Symbol is adjacent to this number\n");
-            }
-            if(below == 1) {
-                printf("Symbol is below this number\n");
-            }
-            if(above == 1) {
-                printf("Symbol is above this number\n");
-            }
-
-            if(adjacent || below || above) {
-                sum += num;
-            }
-
-            j = 1;
         }
     }
 
+    printf("Line Sum: %d\n", sum);
     return sum;
 }
 
