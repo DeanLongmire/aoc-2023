@@ -15,6 +15,7 @@ int processGame(char *line, int lineLength, int lineNumber) {
     int num1 = 0, num2 = 0;
     int combinedNum = 0;
     int maxRed = 0, maxGreen = 0, maxBlue = 0;
+    int power = 0;
 
     for(int i = 0; i < lineLength; i++) {
         if(line[i] == ':') {
@@ -67,11 +68,14 @@ int processGame(char *line, int lineLength, int lineNumber) {
 
     printf("Line %d: r: %d g: %d b: %d\n", lineNumber+1, maxRed, maxGreen, maxBlue);
 
-    if(maxRed > MAX_RED || maxGreen > MAX_GREEN || maxBlue > MAX_BLUE) {
-        return 1;
-    } else {
-        return 0;
-    }
+    // if(maxRed > MAX_RED || maxGreen > MAX_GREEN || maxBlue > MAX_BLUE) {
+    //     return 1;
+    // } else {
+    //     return 0;
+    // }
+
+    power = maxRed * maxGreen * maxBlue;
+    return power;
 }
 
 int main (int argc, char **argv) {
@@ -128,12 +132,13 @@ int main (int argc, char **argv) {
     }
 
     for(int i = 0; i < lineCounter; i++) {
-        if(processGame(lines[i], lineLengths[i], i)) {
-            printf("Game %d is invalid\n", i+1);
-        } else {
-            sum += i+1;
-        }
-        printf("\n");
+        // if(processGame(lines[i], lineLengths[i], i)) {
+        //     printf("Game %d is invalid\n", i+1);
+        // } else {
+        //     sum += i+1;
+        // }
+        // printf("\n");
+        sum += processGame(lines[i], lineLengths[i], i);
     }
 
     printf("Answer: %d\n", sum);
