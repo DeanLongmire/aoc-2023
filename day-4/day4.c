@@ -70,13 +70,12 @@ void freeCard(Card **card) {
     *card = NULL;
 }
 
-int checkCard(char *line, int lineLength, int lineNumber, Card **card) {
+void checkCard(char *line, int lineLength, int lineNumber, Card **card, int *cardCounts) {
     int readingNumbers = 0;
     int numLength = 0;
     int winningIndex = 0;
     int cardIndex = 0;
     int numbersMatched = 0;
-    int sum = 0;
 
     (*card)->winningNumbers[0] = 1;
 
@@ -104,6 +103,7 @@ int checkCard(char *line, int lineLength, int lineNumber, Card **card) {
             }
         }
     }
+    printf("\n");
 
     qsort((*card)->cardNumbers, cardIndex, sizeof(int), cmpfunc);
 
@@ -113,13 +113,10 @@ int checkCard(char *line, int lineLength, int lineNumber, Card **card) {
         }
     }
 
-    if(numbersMatched > 0) {
-        sum = pow(2,numbersMatched - 1);
+    for(int i = 0; i < numbersMatched; i++) {
+        printf("Won card %d!\n", lineNumber + i + 2);
+        cardCounts[lineNumber + i + 1] += cardCounts[lineNumber];
     }
-
-    printf("Matched %d numbers: %d\n", numbersMatched, sum);
-
-    return sum;
 }
 
 int main (int argc, char **argv) {
@@ -152,8 +149,6 @@ int main (int argc, char **argv) {
         }
     }
 
-    printf("%d total lines\n", lineCounter);
-
     lines = malloc(lineCounter * sizeof(char *));
     lineLengths = malloc(lineCounter * sizeof(int));
 
@@ -176,14 +171,22 @@ int main (int argc, char **argv) {
         iLine++;
     }
 
+    int *cardCounts = malloc(sizeof(int) * lineCounter);
+    for(int i = 0; i < lineCounter; i++) {
+        cardCounts[i] = 1;
+    }
+    printf("%d total cards\n", lineCounter);
+
     for(int i = 0; i < lineCounter; i++) {
         Card *card;
         initCard(&card, i + 1);
 
-        lineSum = checkCard(lines[i], lineLengths[i], i, &card);
-
-        sum += lineSum;
+        checkCard(lines[i], lineLengths[i], i, &card, cardCounts);
         freeCard(&card);
+    }
+
+    for(int i = 0; i < lineCounter; i++) {
+        sum += cardCounts[i];
     }
 
     printf("Answer: %d\n", sum);
@@ -194,4 +197,5 @@ int main (int argc, char **argv) {
     }
     free(lines);
     free(lineLengths);
+    free(cardCounts);
 }
