@@ -2,29 +2,32 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <math.h>
+#include <string.h>
 
 typedef struct {
-    int originalCard;
+    int cardNumber;
     int *winningNumbers;
     int *cardNumbers;
 } Card;
+
+int duplicateCards(Card **card, int numToCopy, char **lines, int *lineLengths);
 
 int cmpfunc(const void *a, const void *b) {
     return ( *(int*)a > *(int*)b );
 }
 
-int binarySearch(int arr[], int l, int r, int x)
+int binarySearch(int *arr, int l, int r, int x)
 {
     while (l <= r) {
         int m = l + (r - l) / 2;
- 
+
         if (arr[m] == x) {
             return m;
         } 
+
         if (arr[m] < x) {
             l = m + 1;
-        } 
-        else {
+        } else {
             r = m - 1;
         }
     }
@@ -43,6 +46,7 @@ int getNumRead(char *line, int startIndex, int endIndex) {
     }
     numString[i] = '\0';
 
+
     numInt = atoi(numString);
     free(numString);
     return numInt;
@@ -51,9 +55,12 @@ int getNumRead(char *line, int startIndex, int endIndex) {
 void initCard(Card **card, int cardNumber) {
     *card = malloc(sizeof(Card));
 
-    (*card)->originalCard = cardNumber;
+    (*card)->cardNumber = cardNumber;
     (*card)->winningNumbers = malloc(sizeof(int) * 10);
     (*card)->cardNumbers = malloc(sizeof(int) * 25);
+
+    memset((*card)->winningNumbers, 0, sizeof(int) * 10);
+    memset((*card)->cardNumbers, 0, sizeof(int) * 25);
 }
 
 void freeCard(Card **card) {
@@ -63,20 +70,16 @@ void freeCard(Card **card) {
     *card = NULL;
 }
 
-int checkCard(char *line, int lineLength, int lineNumber) {
+void checkCard(char *line, int lineLength, int lineNumber, Card **card, int *cardCounts) {
     int readingNumbers = 0;
     int numLength = 0;
     int winningIndex = 0;
     int cardIndex = 0;
     int numbersMatched = 0;
-    int sum = 0;
 
-    Card *card;
-    initCard(&card, lineNumber + 1);
+    (*card)->winningNumbers[0] = 1;
 
-    card->winningNumbers[0] = 1;
-
-    printf("Card %d: ", card->originalCard);
+    printf("Card %d: ", (*card)->cardNumber);
 
     for(int i = 0; i < lineLength; i++) {
         if(line[i] == ':') {
@@ -90,34 +93,30 @@ int checkCard(char *line, int lineLength, int lineNumber) {
             }
 
             if(winningIndex < 10) {
-                card->winningNumbers[winningIndex] = getNumRead(line, i - 1, i + numLength);
-                printf("%2d ", card->winningNumbers[winningIndex]);
+                (*card)->winningNumbers[winningIndex] = getNumRead(line, i - 1, i + numLength - 1);
+                printf("%2d ", (*card)->winningNumbers[winningIndex]);
                 winningIndex++;
             } else {
-                card->cardNumbers[cardIndex] = getNumRead(line, i - 1, i + numLength);
-                printf("%2d ", card->cardNumbers[cardIndex]);
+                (*card)->cardNumbers[cardIndex] = getNumRead(line, i - 1, i + numLength - 1);
+                printf("%2d ", (*card)->cardNumbers[cardIndex]);
                 cardIndex++;
             }
         }
     }
+    printf("\n");
 
-    qsort(card->cardNumbers, cardIndex, sizeof(int), cmpfunc);
+    qsort((*card)->cardNumbers, cardIndex, sizeof(int), cmpfunc);
 
     for(int i = 0; i < winningIndex; i++) {
-        if(binarySearch(card->cardNumbers, 0, cardIndex, card->winningNumbers[i]) != -1) {
+        if(binarySearch((*card)->cardNumbers, 0, cardIndex - 1, (*card)->winningNumbers[i]) != -1) {
             numbersMatched++;
         }
     }
 
-    if(numbersMatched > 0) {
-        sum = pow(2,numbersMatched - 1);
+    for(int i = 0; i < numbersMatched; i++) {
+        printf("Won card %d!\n", lineNumber + i + 2);
+        cardCounts[lineNumber + i + 1] += cardCounts[lineNumber];
     }
-
-    printf("Matched %d numbers: %d\n", numbersMatched, sum);
-
-    freeCard(&card);
-
-    return sum;
 }
 
 int main (int argc, char **argv) {
@@ -150,8 +149,6 @@ int main (int argc, char **argv) {
         }
     }
 
-    printf("%d total lines\n", lineCounter);
-
     lines = malloc(lineCounter * sizeof(char *));
     lineLengths = malloc(lineCounter * sizeof(int));
 
@@ -174,10 +171,22 @@ int main (int argc, char **argv) {
         iLine++;
     }
 
+    int *cardCounts = malloc(sizeof(int) * lineCounter);
     for(int i = 0; i < lineCounter; i++) {
-        lineSum = checkCard(lines[i], lineLengths[i], i);
+        cardCounts[i] = 1;
+    }
+    printf("%d total cards\n", lineCounter);
 
-        sum += lineSum;
+    for(int i = 0; i < lineCounter; i++) {
+        Card *card;
+        initCard(&card, i + 1);
+
+        checkCard(lines[i], lineLengths[i], i, &card, cardCounts);
+        freeCard(&card);
+    }
+
+    for(int i = 0; i < lineCounter; i++) {
+        sum += cardCounts[i];
     }
 
     printf("Answer: %d\n", sum);
@@ -188,4 +197,5 @@ int main (int argc, char **argv) {
     }
     free(lines);
     free(lineLengths);
+    free(cardCounts);
 }
