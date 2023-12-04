@@ -3,6 +3,12 @@
 #include <ctype.h>
 #include <math.h>
 
+typedef struct {
+    int originalCard;
+    int *winningNumbers;
+    int *cardNumbers;
+} Card;
+
 int cmpfunc(const void *a, const void *b) {
     return ( *(int*)a > *(int*)b );
 }
@@ -42,15 +48,35 @@ int getNumRead(char *line, int startIndex, int endIndex) {
     return numInt;
 }
 
+void initCard(Card **card, int cardNumber) {
+    *card = malloc(sizeof(Card));
+
+    (*card)->originalCard = cardNumber;
+    (*card)->winningNumbers = malloc(sizeof(int) * 10);
+    (*card)->cardNumbers = malloc(sizeof(int) * 25);
+}
+
+void freeCard(Card **card) {
+    free((*card)->winningNumbers);
+    free((*card)->cardNumbers);
+    free((*card));
+    *card = NULL;
+}
+
 int checkCard(char *line, int lineLength, int lineNumber) {
     int readingNumbers = 0;
     int numLength = 0;
-    int *winningNumbers = malloc(sizeof(int) * 10);
-    int *cardNumbers = malloc(sizeof(int) * 25);
     int winningIndex = 0;
     int cardIndex = 0;
     int numbersMatched = 0;
     int sum = 0;
+
+    Card *card;
+    initCard(&card, lineNumber + 1);
+
+    card->winningNumbers[0] = 1;
+
+    printf("Card %d: ", card->originalCard);
 
     for(int i = 0; i < lineLength; i++) {
         if(line[i] == ':') {
@@ -64,21 +90,21 @@ int checkCard(char *line, int lineLength, int lineNumber) {
             }
 
             if(winningIndex < 10) {
-                winningNumbers[winningIndex] = getNumRead(line, i - 1, i + numLength);
-                printf("%2d ", winningNumbers[winningIndex]);
+                card->winningNumbers[winningIndex] = getNumRead(line, i - 1, i + numLength);
+                printf("%2d ", card->winningNumbers[winningIndex]);
                 winningIndex++;
             } else {
-                cardNumbers[cardIndex] = getNumRead(line, i - 1, i + numLength);
-                printf("%2d ", cardNumbers[cardIndex]);
+                card->cardNumbers[cardIndex] = getNumRead(line, i - 1, i + numLength);
+                printf("%2d ", card->cardNumbers[cardIndex]);
                 cardIndex++;
             }
         }
     }
 
-    qsort(cardNumbers, cardIndex, sizeof(int), cmpfunc);
+    qsort(card->cardNumbers, cardIndex, sizeof(int), cmpfunc);
 
     for(int i = 0; i < winningIndex; i++) {
-        if(binarySearch(cardNumbers, 0, cardIndex, winningNumbers[i]) != -1) {
+        if(binarySearch(card->cardNumbers, 0, cardIndex, card->winningNumbers[i]) != -1) {
             numbersMatched++;
         }
     }
@@ -89,10 +115,9 @@ int checkCard(char *line, int lineLength, int lineNumber) {
 
     printf("Matched %d numbers: %d\n", numbersMatched, sum);
 
-    return sum;
+    freeCard(&card);
 
-    free(winningNumbers);
-    free(cardNumbers);
+    return sum;
 }
 
 int main (int argc, char **argv) {
