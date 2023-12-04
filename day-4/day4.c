@@ -3,6 +3,29 @@
 #include <ctype.h>
 #include <math.h>
 
+int cmpfunc(const void *a, const void *b) {
+    return ( *(int*)a > *(int*)b );
+}
+
+int binarySearch(int arr[], int l, int r, int x)
+{
+    while (l <= r) {
+        int m = l + (r - l) / 2;
+ 
+        if (arr[m] == x) {
+            return m;
+        } 
+        if (arr[m] < x) {
+            l = m + 1;
+        } 
+        else {
+            r = m - 1;
+        }
+    }
+ 
+    return -1;
+}
+
 int getNumRead(char *line, int startIndex, int endIndex) {
     int charsToRead = endIndex - startIndex + 1;
     int numInt;
@@ -52,11 +75,11 @@ int checkCard(char *line, int lineLength, int lineNumber) {
         }
     }
 
+    qsort(cardNumbers, cardIndex, sizeof(int), cmpfunc);
+
     for(int i = 0; i < winningIndex; i++) {
-        for(int j = 0; j < cardIndex; j++) {
-            if(winningNumbers[i] == cardNumbers[j]) {
-                numbersMatched++;
-            }
+        if(binarySearch(cardNumbers, 0, cardIndex, winningNumbers[i]) != -1) {
+            numbersMatched++;
         }
     }
 
